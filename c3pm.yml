@@ -1,0 +1,29 @@
+c3pm_version: v1
+type: library
+name: sdl
+description: "Simple DirectMedia Layer is a cross-platform development   library designed to provide low level access to audio, keyboard, mouse,   joystick, and graphics hardware via OpenGL and Direct3D"
+version: 1.0.0
+publish:
+  include:
+  - '**/**'
+  include_dirs:
+  - '**/**'
+build:
+  adapter:
+    name: sdl
+    version: 0.0.1
+  config:
+    sources:
+    - '**/*.cpp'
+    headers:
+    - '**/*.hpp'
+    include_dirs:
+    - '**/**'
+documentation: ""
+website: ""
+repository: ""
+contributors: ""
+standard: "20"
+license: UNLICENSED
+dependencies: {}
+
